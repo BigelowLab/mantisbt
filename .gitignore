@@ -31,6 +31,7 @@ plugins/*
 .project
 .settings
 .idea/
+*.iml
 *.kdev4
 nbproject/
 
