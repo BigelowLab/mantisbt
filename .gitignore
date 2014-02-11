@@ -31,6 +31,8 @@ plugins/*
 .cache
 .project
 .settings
+.idea/
+*.iml
 
 # IIS7 
 web.config
