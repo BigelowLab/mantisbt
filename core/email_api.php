@@ -1199,6 +1199,10 @@ function email_format_bug_message_simple( $p_visible_bug_data ) {
 	foreach( $p_visible_bug_data['bugnotes'] as $t_bugnote ) {
 		$t_message .= $t_bugnote->note . " \n\n";
 	}
+
+	$t_message .= "\n\n=======================";
+	$t_message .= "\nYour ticket number is " . $p_visible_bug_data['email_bug'] . ".";
+
 	return $t_message;
 }
 

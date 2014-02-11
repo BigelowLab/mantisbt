@@ -358,12 +358,10 @@ $s_email_notification_title_for_status_bug_closed = 'The following issue has bee
 
 $s_email_notification_title_for_action_bug_submitted = 'Thank you for submitting your request.
 
-Depending on effort level, we will prioritize and start work on it as soon as possible.
+We will prioritize your request based on severity and will keep you updated on our progress.
 
 Thanks,
-IT
-
-P.S. Cheesecake';
+IT';
 
 $s_email_notification_title_for_action_bug_assigned = 'The following issue has been ASSIGNED.';
 $s_email_notification_title_for_action_bug_reopened = 'The following issue has been REOPENED.';
