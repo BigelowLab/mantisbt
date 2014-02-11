@@ -286,7 +286,16 @@ $s_email_notification_title_for_status_bug_confirmed = 'The following issue has 
 $s_email_notification_title_for_status_bug_assigned = 'The following issue has been ASSIGNED.';
 $s_email_notification_title_for_status_bug_resolved = 'The following issue has been RESOLVED.';
 $s_email_notification_title_for_status_bug_closed = 'The following issue has been CLOSED';
-$s_email_notification_title_for_action_bug_submitted = 'The following issue has been SUBMITTED.';
+
+$s_email_notification_title_for_action_bug_submitted = 'Thank you for submitting your request.
+
+Depending on effort level, we will prioritize and start work on it as soon as possible.
+
+Thanks,
+IT
+
+P.S. Cheesecake';
+
 $s_email_notification_title_for_action_bug_assigned = 'The following issue has been ASSIGNED.';
 $s_email_notification_title_for_action_bug_reopened = 'The following issue has been REOPENED.';
 $s_email_notification_title_for_action_bug_deleted = 'The following issue has been DELETED.';
