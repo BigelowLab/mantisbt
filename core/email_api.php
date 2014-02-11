@@ -1092,7 +1092,7 @@ function email_bug_info_to_one_user( $p_visible_bug_data, $p_message_id, $p_proj
 		$t_message .= " \n";
 	}
 
-	$t_message .= email_format_bug_message( $p_visible_bug_data );
+	//$t_message .= email_format_bug_message( $p_visible_bug_data );
 
 	# build headers
 	$t_bug_id = $p_visible_bug_data['email_bug'];
