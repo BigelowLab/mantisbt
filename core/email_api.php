@@ -1092,7 +1092,7 @@ function email_bug_info_to_one_user( $p_visible_bug_data, $p_message_id, $p_proj
 		$t_message .= " \n";
 	}
 
-	//$t_message .= email_format_bug_message( $p_visible_bug_data );
+	$t_message .= email_format_bug_message_simple( $p_visible_bug_data );
 
 	# build headers
 	$t_bug_id = $p_visible_bug_data['email_bug'];
@@ -1110,6 +1110,14 @@ function email_bug_info_to_one_user( $p_visible_bug_data, $p_message_id, $p_proj
 	email_store( $t_user_email, $t_subject, $t_message, $t_mail_headers );
 
 	return;
+}
+
+function email_format_bug_message_simple( $p_visible_bug_data ) {
+	$t_message = '';
+	foreach( $p_visible_bug_data['bugnotes'] as $t_bugnote ) {
+		$t_message .= $t_bugnote->note . " \n\n";
+	}
+	return $t_message;
 }
 
 /**
